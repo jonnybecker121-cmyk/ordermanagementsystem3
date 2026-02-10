@@ -34,7 +34,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { useOrderStore, Order } from './store/orderStore';
 import { PaymentStatusIndicator } from './PaymentStatusIndicator';
 import { statevApi, SellOffer, BuyOffer, PurchaseLog } from './services/statevApi';
-import { toast } from 'sonner';
+import { toast } from 'sonner@2.0.3';
 
 interface DashboardProps {
   onNavigate?: (view: string) => void;
